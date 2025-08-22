@@ -29,8 +29,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
 }
 
 .genre-wrapper {
+  width: 60%;
+  margin: 25px 0px;
 }
