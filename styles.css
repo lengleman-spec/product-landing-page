@@ -6,9 +6,26 @@
 
 #header {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  border: 2px solid red;
+}
+
+.img-logo a {
+  font-size: 40px;
+}
+
+#nav-bar {
+  display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
 }
 
 .hero-section {
@@ -29,9 +46,19 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid red;
 }
 
 .genre-wrapper {
   width: 60%;
   margin: 25px 0px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.video {
+  border: 2px solid red;
 }
