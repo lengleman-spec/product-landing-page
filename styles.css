@@ -16,6 +16,7 @@
   margin-bottom: 50px;
   border: 2px solid red;
   font-size: 16px;
+  font-family: "Carrois Gothic SC";
 }
 
 .img-logo a {
@@ -37,11 +38,13 @@
 
 .hero-section {
   text-align: center;
+  font-family: "Carrois Gothic SC";
 }
 
 h1 {
   margin: 100px auto;
   width: 70%;
+  font-size: 2rem;
 }
 
 a {
@@ -68,12 +71,17 @@ a {
 
 input {
   margin: 0.3rem;
+  font-family: "Carrois Gothic SC";
 }
 
 #email,
 #submit {
-  height: 1.9rem;
+  height: 2.3rem;
+  width: auto;
   border-radius: 6px;
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 iframe {
