@@ -3,6 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Eater&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Eater&display=swap");
+
+:root {
+  --void-black: #0d0d0d;
+  --fog-gray: #3e3e3e;
+  --phantom-white: #f5f5f5;
+  --goul-green: #4a7c59;
+  --haunting-purple: #5e239d;
+  --candlelight-gold: #c99700;
+  --mute-gray: #cccccc;
+}
+
 * {
   padding: 0;
   margin: 0;
