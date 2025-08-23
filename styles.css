@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Eater&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -10,10 +13,12 @@
   justify-content: flex-end;
   margin-bottom: 50px;
   border: 2px solid red;
+  font-size: 16px;
 }
 
 .img-logo a {
   font-size: 40px;
+  font-family: "Eater";
 }
 
 #nav-bar {
@@ -33,7 +38,8 @@
 }
 
 h1 {
-  margin: 50px 25px 25px;
+  margin: 100px auto;
+  width: 70%;
 }
 
 a {
@@ -56,6 +62,16 @@ a {
 
 .genre-wrapper h3 {
   color: red;
+}
+
+input {
+  margin: 0.3rem;
+}
+
+#email,
+#submit {
+  height: 1.9rem;
+  border-radius: 6px;
 }
 
 iframe {
