@@ -36,10 +36,6 @@ header {
   font-family: "Carrois Gothic SC";
 }
 
-header img {
-  background-color: var(--phantom-white);
-}
-
 .img-logo a {
   font-size: 40px;
   font-family: "Eater";
