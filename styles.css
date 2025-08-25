@@ -6,11 +6,12 @@
 
 :root {
   --void-black: #0d0d0d;
-  --light-black: #222222;
+  --bg-black: #2a2a2a;
   --fog-gray: #3e3e3e;
   --phantom-white: #f5f5f5;
   --goul-green: #4a7c59;
   --haunting-purple: #5e239d;
+  --dark-purple: #2a003f;
   --candlelight-gold: #c99700;
   --mute-gray: #cccccc;
 }
@@ -22,7 +23,7 @@
 }
 
 body {
-  background-color: var(--light-black);
+  background-color: var(--bg-black);
   color: var(--phantom-white);
 }
 
@@ -36,9 +37,16 @@ header {
   font-family: "Carrois Gothic SC";
 }
 
+.img-logo {
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+
 .img-logo a {
   font-size: 40px;
   font-family: "Eater";
+  margin-left: 1.2rem;
+  color: var(--haunting-purple);
 }
 
 #nav-bar {
@@ -83,10 +91,6 @@ a {
 .genre-wrapper {
   width: 60%;
   margin: 1.7rem 0;
-}
-
-.genre-wrapper h3 {
-  color: red;
 }
 
 input {
