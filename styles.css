@@ -117,3 +117,10 @@ iframe {
 .video {
   border: 2px solid red;
 }
+
+/* Merch Section */
+.merch {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
