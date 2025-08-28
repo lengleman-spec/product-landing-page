@@ -116,6 +116,7 @@ iframe {
 }
 
 /* Merch Section */
+/*
 .merch {
   display: flex;
   justify-content: space-evenly;
@@ -124,6 +125,15 @@ iframe {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+*/
+
+.merch-wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0 50px;
+}
 
 .movies,
 .apparel,
@@ -131,6 +141,7 @@ iframe {
   border: 2px solid var(--goul-green);
   border-radius: 6px;
   text-align: center;
+  flex: 1;
 }
 
 ul li {
