@@ -45,17 +45,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 50px;
 
   font-size: 16px;
   font-family: "Carrois Gothic SC";
   background-color: var(--color-bg-alt);
-
-  /* Code below just to pass FCC's tests.
-    Makes navbar stick to top of viewport always. 
-  position: sticky;
-  top: 0;
-  */
 }
 
 .img-logo {
@@ -89,10 +82,11 @@ header {
 .hero-section {
   text-align: center;
   font-family: "Carrois Gothic SC";
+  background: linear-gradient(to bottom, var(--color-shadow), var(--color-bg));
 }
 
 h1 {
-  margin: 100px auto;
+  margin: auto;
   width: 70%;
   font-size: 2rem;
   color: var(--phantom-white);
