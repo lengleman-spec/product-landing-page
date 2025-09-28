@@ -83,6 +83,7 @@ header {
   text-align: center;
   font-family: "Carrois Gothic SC";
   background: linear-gradient(to bottom, var(--color-shadow), var(--color-bg));
+  padding: 6rem 0;
 }
 
 h1 {
