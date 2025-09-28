@@ -123,6 +123,15 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: var(--color-crimson);
 }
+
+.genre-wrapper h3 {
+  color: var(--color-crimson);
+}
+
+.genre-wrapper p {
+  color: var(--color-text-muted);
+}
+
 #email,
 #submit {
   height: 2.3rem;
@@ -137,11 +146,13 @@ iframe {
   display: block;
   margin: 0 auto;
   padding: 50px 0;
+  background-color: var(--color-bg);
 }
 
 /* Merch Section */
 .merch {
   padding: 50px 0;
+  background-color: var(--color-bg-alt);
 }
 
 .merch-wrapper {
@@ -151,6 +162,11 @@ iframe {
   gap: 30px;
   width: 80%;
   margin: auto;
+}
+
+.merch-wrapper div {
+  background-color: var(--color-bg);
+  border: 2px solid var(--color-fog);
 }
 
 .movies,
@@ -175,9 +191,19 @@ ul li {
   border-radius: 6px;
 }
 
+.card-head h3 {
+  color: var(--color-blood);
+}
+
 .card-btn {
   padding: 6px 8px;
   border-radius: 4px;
+  background-color: var(--color-rot);
+  color: var(--color-text);
+}
+
+.card-btn:hover {
+  background-color: var(--color-blood);
 }
 
 /* Footer */
@@ -188,16 +214,20 @@ footer {
   justify-content: center;
   align-items: flex-end;
   width: 80%;
-  background-color: var(--void-black);
+  background-color: var(--color-bg);
   border-radius: 2px;
   margin: auto;
 }
 
-footer a {
-  color: var(--phantom-white);
+.footer-links a {
+  color: var(--color-text-muted);
   font-size: 1.3rem;
   padding: 2px;
   margin-left: 4px;
+}
+
+.footer-links a:hover {
+  color: var(--color-bone);
 }
 
 .footer-links {
@@ -210,7 +240,7 @@ h5 {
   font-weight: 400;
   margin-right: 8px;
   padding-bottom: 16px;
-  color: var(--fog-gray);
+  color: var(--color-ghost);
 }
 
 /* Still need the following
