@@ -34,6 +34,11 @@ header {
 
   font-size: 16px;
   font-family: "Carrois Gothic SC";
+
+  /* Code below just to pass FCC's tests.
+    Makes navbar stick to top of viewport always. */
+  position: sticky;
+  top: 0;
 }
 
 .img-logo {
