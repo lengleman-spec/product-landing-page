@@ -90,7 +90,7 @@ h1 {
   margin: auto;
   width: 70%;
   font-size: 2rem;
-  color: var(--phantom-white);
+  color: var(--color-bone);
 }
 
 a {
@@ -115,6 +115,14 @@ input {
   font-family: "Carrois Gothic SC";
 }
 
+input[type="submit"] {
+  background-color: var(--color-blood);
+  color: var(--color-text);
+}
+
+input[type="submit"]:hover {
+  background-color: var(--color-crimson);
+}
 #email,
 #submit {
   height: 2.3rem;
