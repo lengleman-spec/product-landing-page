@@ -160,7 +160,7 @@ iframe {
 
 /* Merch Section */
 .merch {
-  padding: 50px 0;
+  padding: 120px 0;
   background-color: var(--color-bg-alt);
 }
 
@@ -191,6 +191,11 @@ ul li {
   list-style-type: none;
   padding: 0.5rem;
   text-align: center;
+}
+
+ul li:hover {
+  color: var(--color-blood);
+  cursor: pointer;
 }
 
 .card-head {
