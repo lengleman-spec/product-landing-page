@@ -73,10 +73,15 @@ header {
   display: flex;
   justify-content: flex-end;
   gap: 30px;
+  padding: 0.4rem 0;
 }
 
 .nav-links a {
   color: var(--mute-gray);
+}
+
+.nav-links a:hover {
+  color: var(--color-blood);
 }
 
 .hero-section {
